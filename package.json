@@ -1,0 +1,31 @@
+{
+  "name": "othello",
+  "description": "소소하지만 확실한 행복의 세번째 습작 틱택토 -> 오목 -> 오델로 게임 구현",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohwakhaeng-fe/othello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohwakhaeng-fe/othello/issues"
+  },
+  "homepage": "https://github.com/sohwakhaeng-fe/othello#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.3",
+    "@types/react-dom": "^18.2.3",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
