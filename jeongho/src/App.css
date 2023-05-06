@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+
+.stone{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.sqaure{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  box-sizing: border-box;
+}
+
+.board{
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text{
+  font-size: 24px;
+  padding: 10px;
+}
